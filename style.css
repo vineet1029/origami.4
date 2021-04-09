@@ -1,0 +1,38 @@
+h1{
+    color: rgb(0, 0, 0);
+
+  }
+.header{
+    background-color : rgb(255, 0, 0);
+    display:flex;
+    justify-content: space-between;
+}
+ .menu {
+     background-color: rgb(9, 250, 29);
+ }
+ .grid{
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+ .grid{
+     background-color: #4cff15;
+ }
+ 
+ .origami:hover p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+      .origami:hover p{
+    opacity: 1;
+  }
+   .origami:hover p{
+       opacity: 1;
+   }
+
+   .origami:hover img{
+       opacity:0.33
+   }
